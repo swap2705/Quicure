@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@mipmap/appoin">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Hospital Name:" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView24"
+        android:text="Request Status:" />
+
+    <TextView
+        android:id="@+id/tVan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:textSize="20dp"
+        android:text="TextView"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView25"
+        android:layout_toEndOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/tVas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_alignLeft="@+id/tVan"
+        android:layout_alignStart="@+id/tVan"
+        android:layout_below="@+id/tVan"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tVaq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView25"
+        android:layout_toLeftOf="@+id/tVas"
+        android:layout_toStartOf="@+id/tVas"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+</RelativeLayout>

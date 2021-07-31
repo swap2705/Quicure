@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1011650894190",
+    "firebase_url": "https://quicure-d02fa.firebaseio.com",
+    "project_id": "quicure-d02fa",
+    "storage_bucket": "quicure-d02fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011650894190:android:a5e276b81ae84356",
+        "android_client_info": {
+          "package_name": "com.swapnilshukla.quicure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011650894190-g7o5esio30oaisbhavgicok4f95fg2qu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swapnilshukla.quicure",
+            "certificate_hash": "81f988b73209ad8d4b9e1c373b9f2389d8e20efa"
+          }
+        },
+        {
+          "client_id": "1011650894190-jv8pjgrlmnls1k0hjh0t0j2n2h4ek5mt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swapnilshukla.quicure",
+            "certificate_hash": "99e9db357760b968095f8a9840b11ebb9398538f"
+          }
+        },
+        {
+          "client_id": "1011650894190-rc0hlrhn2akatuab72ln02mb366bkrpu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSi5R0t_pCCoWJxrKsna-zJqGOhC__HW4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011650894190-rc0hlrhn2akatuab72ln02mb366bkrpu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

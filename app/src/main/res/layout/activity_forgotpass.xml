@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@mipmap/for1">
+
+    <TextView
+        android:id="@+id/textchange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        android:textSize="33dp"
+        android:textColor="@color/heading"/>
+
+    <Button
+        android:id="@+id/btfp"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Change Password"
+        android:textSize="18dp"
+        android:background="@drawable/buttonhos"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp" />
+
+    <EditText
+        android:id="@+id/eTfpass2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirm new Password"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:layout_above="@+id/btfp"
+        android:layout_alignLeft="@+id/btfp"
+        android:layout_alignStart="@+id/btfp"
+        android:layout_marginBottom="41dp"
+        android:textSize="@dimen/size"
+        android:layout_alignRight="@+id/btfp"
+        android:layout_alignEnd="@+id/btfp" />
+
+    <EditText
+        android:id="@+id/eTfpass1"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="New Password"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:textSize="@dimen/size"
+        android:layout_above="@+id/eTfpass2"
+        android:layout_alignLeft="@+id/eTfpass2"
+        android:layout_alignStart="@+id/eTfpass2"
+        android:layout_alignRight="@+id/btfp"
+        android:layout_alignEnd="@+id/btfp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tVfsq"
+        android:layout_below="@+id/textchange"
+        android:layout_marginTop="37dp"
+        android:textSize="@dimen/size"
+        android:layout_alignLeft="@+id/eTfpass1"
+        android:layout_alignStart="@+id/eTfpass1"
+        android:layout_alignRight="@+id/btfp"
+        android:layout_alignEnd="@+id/btfp" />
+
+    <EditText
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/eTfans"
+        android:hint="Answer"
+        android:textSize="@dimen/size"
+        android:layout_above="@+id/eTfpass1"
+        android:layout_alignLeft="@+id/eTfpass1"
+        android:layout_alignStart="@+id/eTfpass1"
+        android:layout_alignRight="@+id/tVfsq"
+        android:layout_alignEnd="@+id/tVfsq" />
+
+
+</RelativeLayout>

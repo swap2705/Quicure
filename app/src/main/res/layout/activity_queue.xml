@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_queue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/login">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvdocname"
+        android:textSize="@dimen/size"
+        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_alignBaseline="@+id/tvdoc"
+        android:layout_alignBottom="@+id/tvdoc"
+        android:layout_toRightOf="@+id/tvaddress"
+        android:layout_toEndOf="@+id/tvaddress" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvdocadd"
+        android:textSize="@dimen/size"
+        android:layout_alignBaseline="@+id/tvaddress"
+        android:layout_alignBottom="@+id/tvaddress"
+        android:layout_alignLeft="@+id/tvdocname"
+        android:layout_alignStart="@+id/tvdocname" />
+
+    <TextView
+        android:text="Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvaddress"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="@dimen/size"
+        android:layout_below="@+id/tvdoc"
+        android:layout_alignLeft="@+id/tvdoc"
+        android:layout_alignStart="@+id/tvdoc"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fees"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="@dimen/size"
+        android:layout_below="@+id/tvdocadd"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/tvaddress"
+        android:layout_alignStart="@+id/tvaddress" />
+
+    <TextView
+        android:id="@+id/tVfee"
+        android:textSize="@dimen/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignLeft="@+id/tvdocadd"
+        android:layout_alignStart="@+id/tvdocadd"
+        android:text="TextView" />
+
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvdoc"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="@dimen/size"
+        android:layout_marginTop="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tVq"
+        android:layout_width="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="@dimen/size"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_alignBaseline="@+id/tvwaitlist"
+        android:layout_alignBottom="@+id/tvwaitlist"
+        android:layout_toRightOf="@+id/tvwaitlist"
+        android:layout_toEndOf="@+id/tvwaitlist" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="@dimen/size"
+        android:text=" in queue"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_alignBaseline="@+id/tVq"
+        android:layout_alignBottom="@+id/tVq"
+        android:layout_alignLeft="@+id/tVfee"
+        android:layout_alignStart="@+id/tVfee" />
+
+    <Button
+        android:text="Request Appointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnappoint"
+        android:layout_marginBottom="81dp"
+        android:textSize="@dimen/fab_margin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/button"/>
+
+    <TextView
+        android:text="You are "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvwaitlist"
+        android:textSize="@dimen/size"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_above="@+id/btnappoint"
+        android:layout_alignRight="@+id/tvaddress"
+        android:layout_alignEnd="@+id/tvaddress"
+        android:layout_marginBottom="74dp" />
+
+</RelativeLayout>
+
+
